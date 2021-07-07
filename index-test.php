@@ -85,12 +85,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <div class="container clearfix">
             <!-- Logo
 					============================================= -->
-            <div id="logo" style="margin: 0 !important">
+            <div id="logo">
               <a
                 href="https://eset.com/"
                 class="standard-logo"
-                data-dark-logo="../images/logo-dark.png"
-                ><img src="../images/logo.png" alt="ESET Renovar Licencia"
+                data-dark-logo="./img/eset_logo_home.png.png"
+                ><img src="./img/eset_logo_home.png" alt="ESET Renovar Licencia"
               /></a>
               <a
                 href="https://eset.com/"
@@ -459,8 +459,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- Copyrights
 			============================================= -->
         <div id="copyrights">
-          <div class="copyrights__container">
-            <div class="copyrights__social">
+        <div class="copyrights__social">
               <div class="copyrights__left">
                 © Copyright 2017<br />
                 ESET, LLC y ESET, spol. s.r.o. Todos los derechos reservados<br />
@@ -471,7 +470,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <div class="copyrights__right">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/ESETLA"
                   class="social-icon si-small si-borderless si-facebook"
                 >
                   <i class="icon-facebook"></i>
@@ -479,7 +478,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </a>
 
                 <a
-                  href="#"
+                  href="https://www.twitter.com/ESETLA"
                   class="social-icon si-small si-borderless si-twitter"
                 >
                   <i class="icon-twitter"></i>
@@ -487,11 +486,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </a>
               </div>
             </div>
-            <div class="copyrights__shopify">
-              <img src="./img/shopify.png" alt="Shopify Logo" />
-              <p>© 2021, ESETCR. https://es.shopify.com/</p>
-            </div>
-          </div>
         </div>
         <!-- #copyrights end -->
       </footer>
