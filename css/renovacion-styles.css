@@ -137,6 +137,10 @@ p {
   color: rgb(60, 71, 78, 80%);
   font-weight: lighter !important;
 }
+.main__heading p {
+  font-family: "Calibri" !important;
+  font-size: 1.5rem !important;
+}
 
 .main__form-container {
   width: 100%;
@@ -145,9 +149,10 @@ p {
 
 .main__form-container p {
   color: #05adad;
-  font-size: 1.3rem !important;
+  font-size: 1.5rem !important;
   text-align: center;
   margin-top: 0.65rem !important;
+  font-family: "Calibri" !important;
 }
 
 .main__type-container {
@@ -163,8 +168,10 @@ p {
   margin-bottom: 0.5rem;
 }
 .main__type-container select {
+  font-family: "Calibri" !important;
   width: 100%;
-  text-align-last: center;
+  text-align-last: left;
+  padding: 0 1rem;
   height: 4.5rem;
   border: 0.28rem solid rgb(60, 71, 78, 30%);
   font-weight: 600;
@@ -173,8 +180,10 @@ p {
 
 #renew_form input {
   width: 100%;
+  font-family: "Calibri" !important;
   margin-top: 1.5rem;
-  text-align: center;
+  text-align: left;
+  padding: 0 1rem;
   height: 4.5rem;
   border: 0.28rem solid rgb(60, 71, 78, 30%);
   font-weight: 600;
@@ -184,17 +193,16 @@ p {
 .form__submit button {
   margin-top: 1.2rem;
   margin-bottom: 1rem;
-  background-color: #00508c;
+  background-color: #424d56;
   font-size: 1.6rem;
   font-weight: 700;
   border: none;
   color: #ffffff;
   padding: 0.85rem 3rem;
-  border-radius: 0.8rem;
   transition: all 0.2s ease;
 }
 .form__submit button:hover {
-  background-color: rgb(0, 80, 140, 90%);
+  background-color: rgb(66, 77, 86, 90%);
 }
 
 .main__trustbuilders h2 {
@@ -214,13 +222,12 @@ p {
   text-decoration: none;
   display: inline-block;
   margin-bottom: 1.5rem;
-  padding: 0.5rem 2.75rem;
+  padding: 0.85rem 2.75rem;
   border: none;
-  border-radius: 0.75rem;
-  color: #00508c;
+  color: #ffffff;
   font-size: 1.3rem;
   font-weight: bolder;
-  background-color: #eaecee;
+  background-color: #424d56;
   transition: all 0.2s ease;
 }
 .main__footer a:hover {
@@ -287,11 +294,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 0.35rem solid #ffffff;
+  border-bottom: 0.3rem solid #00bbc5;
   border-left: transparent;
   border-right: transparent;
   border-top: transparent;
-  border-style: dashed;
 }
 
 .faq__1 span {
@@ -303,11 +309,10 @@ p {
 
 .faq__2 {
   padding: 0 1rem;
-  border-bottom: 0.35rem solid #ffffff;
+  border-bottom: 0.3rem solid #00bbc5;
   border-left: transparent;
   border-right: transparent;
   border-top: transparent;
-  border-style: dashed;
 }
 .faq__video {
   padding: 2rem 0;
@@ -582,6 +587,7 @@ p {
 
 .product-price {
   padding: 2rem 3rem;
+  background-color: #eaecee;
 }
 
 .product-price p {
@@ -591,6 +597,7 @@ p {
 .product-price > p {
   text-align: left !important;
   margin-bottom: 3rem !important;
+  color: #3c474e !important;
 }
 
 .product-price span {
@@ -598,23 +605,25 @@ p {
   justify-content: space-evenly;
   align-items: center;
 }
+.product-price span p {
+  color: #3c474e !important;
+}
 .product-price span p a {
   display: inline-block;
   cursor: pointer;
   text-decoration: none !important;
-  padding: 0.5rem 2.75rem;
-  border: none;
-  border-radius: 0.75rem;
-  color: #00508c;
-  font-size: 1.2rem;
+  padding: 0.85rem 3rem;
+  color: #fff;
+  font-size: 1.3rem;
   font-weight: bolder;
-  background-color: #eaecee;
+  background-color: #424d56;
   transition: all 0.2s ease;
   margin-top: 1.2rem;
   letter-spacing: normal !important;
   text-transform: none !important;
   line-height: normal !important;
   height: auto !important;
+  border-radius: 0 !important;
 }
 .product-price span p a:hover {
   background-color: #00508c;
@@ -667,13 +676,12 @@ p {
   cursor: pointer;
   text-decoration: none !important;
   display: inline-block;
-  padding: 0.5rem 2.75rem;
-  border: none;
-  border-radius: 0.75rem;
-  color: #00508c;
-  font-size: 1.15rem;
+  padding: 0.8rem 3rem;
+  border-radius: 0 !important;
+  color: #ffffff;
+  font-size: 1.3rem;
   font-weight: bolder;
-  background-color: #eaecee;
+  background-color: #424d56;
   transition: all 0.2s ease;
   margin: 0 !important;
   letter-spacing: normal !important;
@@ -703,10 +711,15 @@ p {
   margin-top: 1.5rem;
 }
 .pricing-action button {
-  border-radius: 10px !important;
+  background-color: #424d56;
+  width: 100%;
+  border-radius: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 .pricing-price {
   padding-bottom: 0 !important;
+  font-family: "Calibri" !important;
 }
 .pricing-price span {
   display: flex;
@@ -746,6 +759,7 @@ p {
   text-align-last: center !important;
   border: 0.28rem solid rgb(60, 71, 78, 30%) !important;
   color: #889195;
+  font-family: "Calibri" !important;
 }
 
 @media (max-width: 56.25em) {

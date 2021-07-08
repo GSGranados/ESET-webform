@@ -101,10 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <!-- #logo end -->
             <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-            <div class="header-icons">
-              <i class="icon-search icon-flip-horizontal"></i>
-              <i class="icon-cart"></i>
-            </div>
+
           </div>
         </div>
       </header>
@@ -118,7 +115,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <nav id="primary-menu">
               <ul>
                 <li>
-                  <a href="../index.html"
+                  <a href="https://comprar.eset.co.cr/"
                     ><div>
                       <i class="icon icon-home2" style="font-size: 22px"></i
                       >Inicio
@@ -126,12 +123,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   >
                 </li>
                 <li>
-                  <a href="../windows/index.html"
+                  <a href="https://comprar.eset.co.cr/pages/windows-products"
                     ><div><i class="icon icon-windows3"></i>Windows</div></a
                   >
                 </li>
                 <li>
-                  <a href="../multi-device/index.html"
+                  <a href="https://comprar.eset.co.cr/pages/multi-device-products"
                     ><div>
                       <i class="icon icon-line-monitor"></i
                       ><i
@@ -143,17 +140,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   >
                 </li>
                 <li>
-                  <a href="../android/index.html"
+                  <a href="https://comprar.eset.co.cr/pages/android"
                     ><div><i class="icon icon-android2"></i>Android</div></a
                   >
                 </li>
                 <li>
-                  <a href="../mac/index.html"
+                  <a href="https://comprar.eset.co.cr/pages/mac-products"
                     ><div><i class="icon icon-apple"></i>Mac</div></a
                   >
                 </li>
                 <li>
-                  <a href="../linux/index.html"
+                  <a href="https://comprar.eset.co.cr/pages/page"
                     ><div><i class="icon icon-linux"></i>Linux</div></a
                   >
                 </li>
@@ -237,7 +234,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   enviado, el distribuidor oficial de tu región, se pondrá en
                   contacto para asesorarlo.
                 </p>
-                <a href="#">Complete el formulario de contacto.</a>
+                <a href="https://www.esetca.com/soporte_tienda/contact.php">Complete el formulario de contacto.</a>
               </div>
               <div class="main__mobile-product-right">
                 <div class="faq">
@@ -261,7 +258,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       <div class="faq__item-1 faq__element">
                         <div class="faq__item-question">
                           <p>
-                            ¿Cuales son los medios de pago aceptados en la
+                            ¿Cuáles son los medios de pago aceptados en la
                             tienda en linea?
                           </p>
                           <img src="./img/left-chevron.png" alt="" />
@@ -277,7 +274,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                       </div>
                       <div class="faq__item-2 faq__element">
                         <div class="faq__item-question">
-                          <p>¿Cuando y como recibo la licencia?</p>
+                          <p>¿Cuándo y como recibo la licencia?</p>
                           <img src="./img/left-chevron.png" alt="" />
                         </div>
                         <div class="faq__item-answer">
